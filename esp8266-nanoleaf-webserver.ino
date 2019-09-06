@@ -20,7 +20,7 @@
 //-----------------------------------------CONFIG-----------------------------------------//
 #define LEAFCOUNT 12
 #define PIXELS_PER_LEAF 12
-
+#define FASTLED_ESP8266_NODEMCU_PIN_ORDER //comment out if using an original WEMO D1. required for nodemcu clones
 #define DATA_PIN      D4          // The pin where the data line is connected to
 #define LED_TYPE      WS2812B
 #define COLOR_ORDER   GRB         // Color order, if e.g. your Colors are swapped then change the order, (RGB, RBG, GBR, GRB, BRG, BGR)
